@@ -1,5 +1,5 @@
 /// Fable bindings for @storybook/react
-module rec GamerAI.Web.Client.Import.Storybook.React
+module rec Fable.Import.Storybook.React
 
 open Fable.Core
 open Fable.Import.React

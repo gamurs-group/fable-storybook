@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Fable.Import.Storybook.React</id>
+        <version>4.0.3</version>
+        <title>Fable bindings for @storybook/react</title>
+        <authors>Grant Neale</authors>
+        <owners>Grant Neale</owners>
+        <developmentDependency>true</developmentDependency>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <description>Fable bindings for @storybook/react</description>
+        <summary>Fable bindings for @storybook/react</summary>
+        <tags>fable,fsharp,storybook,react</tags>
+        <dependencies>
+            <group targetFramework=".NETCoreApp2.0">
+                <dependency id="Fable.Core" version="2.0.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\fable-import-storybook-react.fsproj" target="content\fable-import-storybook-react.fsproj" />
+        <file src="content\LICENSE" target="content\LICENSE" />
+        <file src="content\README.md" target="content\README.md" />
+        <file src="content\Binding.fs" target="fable\Binding.fs" />
+    </files>
+</package>
