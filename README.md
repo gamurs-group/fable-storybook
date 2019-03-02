@@ -8,13 +8,6 @@ Stable | Prerelease
 --- | ---
 [![NuGet Badge](https://buildstats.info/nuget/Fable.Storybook)](https://www.nuget.org/packages/Fable.Storybook/) | [![NuGet Badge](https://buildstats.info/nuget/Fable.Storybook?includePreReleases=true)](https://www.nuget.org/packages/Fable.Storybook/)
 
-### Build Status
-
-MacOS/Linux |
---- |
-[![Travis Badge](https://travis-ci.com/grantneale/fable-storybook.svg?branch=master)](https://travis-ci.com/grantneale/fable-storybook) |
-[![Build History](https://buildstats.info/travisci/chart/grantneale/fable-storybook)](https://travis-ci.com/grantneale/fable-storybook/builds) |
-
 
 ## Getting Started
 
