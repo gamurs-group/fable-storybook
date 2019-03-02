@@ -4,12 +4,13 @@
         <TargetFramework>netstandard2.0</TargetFramework>
     </PropertyGroup>
     <ItemGroup>
-        <Compile Include="Storybook.React.fs" />
+        <Compile Include="Fable.Storybook.fs" />
     </ItemGroup>
     <ItemGroup>
         <Content Include="\*.fsproj; *.fs" PackagePath="fable\" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Fable.Core" Version="2.0.3" />
+      <PackageReference Include="Fable.React" Version="4.1.3" />
     </ItemGroup>
 </Project>

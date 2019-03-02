@@ -36,7 +36,8 @@ Fable bindings for `@storybook/react`.
     ```
     import { configure } from '@storybook/react';
 
-    import '../styles/main.sass';
+    // If using SASS
+    import '../path/to/styles/main.sass';
 
     function loadStories() {
         const req = require.context('../src/', true, /\.stories\.(fs|js)$/);
@@ -50,14 +51,13 @@ Fable bindings for `@storybook/react`.
 
 ## Example Stories
 
-You can then wrote stories as in the following example:
+### Basic
 
 ```fsharp
-
 /// Example stories
 module Example.MyComponent
 
-open Fable.Storybook.React
+open Fable.Storybook
 
 storiesOf("Folder/MyComponent")
     .add("First Story", fun _ -> MyComponent.render [])
@@ -65,7 +65,23 @@ storiesOf("Folder/MyComponent")
     .add("Bedtime Story", fun _ -> MyComponent.render [])
     .add("True Story", fun _ -> MyComponent.render [])
     |> ignore
+```
 
+### With Decorator - Centered
+
+```fsharp
+/// Example stories with centered decorator
+module Example.MyComponent
+
+open Fable.Storybook
+
+storiesOf("Folder/MyComponent")
+    .addDecorator(centered)
+    .add("First Story", fun _ -> MyComponent.render [])
+    .add("Second Story", fun _ -> MyComponent.render [])
+    .add("Bedtime Story", fun _ -> MyComponent.render [])
+    .add("True Story", fun _ -> MyComponent.render [])
+    |> ignore
 ```
 
 ## How were these bindings generated
@@ -74,9 +90,9 @@ These bindings were mostly auto-generated using `ts2fable`, with a few manual tw
 
 ```bash
 # Install ts2fable as a global tool
-yarn global add ts2fablegit clone
+yarn global add ts2fable
 
 yarn add --dev @types/storybook__react
 
-ts2fable node_modules/\@types/storybook__react/index.d.ts StorybookReact.fs
+ts2fable node_modules/\@types/storybook__react/index.d.ts Fable.Storybook.fs
 ```

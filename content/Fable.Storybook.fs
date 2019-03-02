@@ -1,5 +1,5 @@
 /// Fable bindings for @storybook/react
-module Fable.Storybook.React
+module rec Fable.Storybook
 
 open Fable.Core
 open Fable.Import.React
@@ -44,10 +44,17 @@ type [<AllowNullLiteral>] StoryBucket =
 
 /// Access a reference to the Webpack 'module' global variable
 let [<Emit("module")>] webpackModule<'T> : 'T = jsNative
+//Fable.Import.JS.Glo
 
 /// import * from '@storybook/react';
 [<Import("*", from="@storybook/react")>]
 let Storybook : IExports = jsNative
 
-/// Wrapper for Storybook.storiesOf that takes care binding the webpackModule parameter
+/// <summary>
+/// Wrapper for Storybook.storiesOf that takes care binding the webpackModule parameter.
+
 let storiesOf name = Storybook.storiesOf (name, webpackModule)
+
+/// import centered from '@storybook/addon-centered';
+[<Import("default", from="@storybook/addon-centered")>]
+let centered : StoryDecorator = jsNative
