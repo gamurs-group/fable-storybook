@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Version>0.0.0</Version>
+    <Version>1.0.0</Version>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <Summary>Fable bindings for @storybook/react</Summary>
-    <Description>Provides a Fable API for writing stories that can be rendered using the @storybook/react npm package.</Description>
+    <Description>Provides a Fable API for writing UI component stories, which can be rendered using the @storybook/react npm package.</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Grant Neale</Authors>
     <PackageLicenseUrl>https://github.com/grantneale/fable-storybook/blob/master/LICENSE.md</PackageLicenseUrl>
