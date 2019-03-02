@@ -6,7 +6,7 @@ Fable bindings for the [@storybook/react](https://www.npmjs.com/package/@storybo
 
 Stable | Prerelease
 --- | ---
-[![NuGet Badge](https://buildstats.info/nuget/Fable.Fable.Storybook)](https://www.nuget.org/packages/Fable.Fable.Storybook/) | [![NuGet Badge](https://buildstats.info/nuget/Fable.Fable.Storybook?includePreReleases=true)](https://www.nuget.org/packages/Fable.Storybook/)
+[![NuGet Badge](https://buildstats.info/nuget/Fable.Storybook)](https://www.nuget.org/packages/Fable.Storybook/) | [![NuGet Badge](https://buildstats.info/nuget/Fable.Storybook?includePreReleases=true)](https://www.nuget.org/packages/Fable.Storybook/)
 
 ## Travis CI
 
