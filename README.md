@@ -2,18 +2,18 @@
 
 Fable bindings for the [@storybook/react](https://www.npmjs.com/package/@storybook/react) NPM package.
 
-## Nuget
+### Nuget Packages
 
 Stable | Prerelease
 --- | ---
 [![NuGet Badge](https://buildstats.info/nuget/Fable.Storybook)](https://www.nuget.org/packages/Fable.Storybook/) | [![NuGet Badge](https://buildstats.info/nuget/Fable.Storybook?includePreReleases=true)](https://www.nuget.org/packages/Fable.Storybook/)
 
-## Travis CI
+### Build Status
 
-MacOS/Linux | Windows
---- | ---
-[![Travis Badge](https://travis-ci.org/grantneale/Fable.Storybook.svg?branch=master)](https://travis-ci.org/grantneale/Fable.Storybook) | [![Build status](https://ci.appveyor.com/api/projects/status/github/grantneale/Fable.Storybook?svg=true)](https://ci.appveyor.com/project/grantneale/Fable.Storybook)
-[![Build History](https://buildstats.info/travisci/chart/grantneale/Fable.Storybook)](https://travis-ci.org/grantneale/Fable.Storybook/builds) | [![Build History](https://buildstats.info/appveyor/chart/grantneale/Fable.Storybook)](https://ci.appveyor.com/project/grantneale/Fable.Storybook)
+MacOS/Linux |
+--- |
+[![Travis Badge](https://travis-ci.com/grantneale/fable-storybook.svg?branch=master)](https://travis-ci.com/grantneale/fable-storybook) |
+[![Build History](https://buildstats.info/travisci/chart/grantneale/fable-storybook)](https://travis-ci.com/grantneale/fable-storybook/builds) |
 
 
 ## Getting Started
