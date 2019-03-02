@@ -1,4 +1,4 @@
-# fable-storybook-react
+# fable-storybook
 
 Fable bindings for `@storybook/react`.
 
@@ -31,7 +31,7 @@ Fable bindings for `@storybook/react`.
 
    ```
 
-3. You can now require `.fs` files directly in your `.storybook/conig.js`, for example:
+3. You can now require `.fs` files directly in your `.storybook/config.js`, for example:
 
     ```
     import { configure } from '@storybook/react';
@@ -57,7 +57,7 @@ You can then wrote stories as in the following example:
 /// Example stories
 module Example.MyComponent
 
-open Fable.Import.Storybook.React
+open Fable.Storybook.React
 
 storiesOf("Folder/MyComponent")
     .add("First Story", fun _ -> MyComponent.render [])

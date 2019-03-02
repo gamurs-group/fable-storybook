@@ -1,5 +1,5 @@
 /// Fable bindings for @storybook/react
-module rec Fable.Import.Storybook.React
+module Fable.Storybook.React
 
 open Fable.Core
 open Fable.Import.React

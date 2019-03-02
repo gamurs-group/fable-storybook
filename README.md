@@ -1,4 +1,4 @@
-# fable-import-react
+# fable-storybook
 
 Fable bindings for [@storybook/react](https://storybook.js.org/basics/guide-react/).
 
