@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>0.0.0</Version>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Summary>Fable bindings for @storybook/react</Summary>
+    <Description>Provides a Fable API for writing stories that can be rendered using the @storybook/react npm package.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Grant Neale</Authors>
+    <PackageLicenseUrl>https://github.com/grantneale/fable-storybook/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/grantneale/fable-storybook</PackageProjectUrl>
+    <PackageIconUrl>https://raw.github.com/grantneale/fable-storybook/blob/master/storybook-icon.png</PackageIconUrl>
+    <PackageTags>F#, fsharp, fable2, fable-bindings, storybook, react</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Fable.Storybook.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="*.fsproj; *.fs" PackagePath="fable\" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>

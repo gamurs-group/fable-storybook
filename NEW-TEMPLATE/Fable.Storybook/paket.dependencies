@@ -1,6 +1,7 @@
 source https://www.nuget.org/api/v2
 content:none
 
+nuget Fable.React
 nuget FSharp.Core redirects:force
 nuget Fable.Core
 

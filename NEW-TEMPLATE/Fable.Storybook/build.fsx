@@ -200,7 +200,7 @@ Target "Release" (fun _ ->
 )
 
 "Clean"
-  ==> "InstallDotNetCore"
+//  ==> "InstallDotNetCore"
   ==> "YarnInstall"
   ==> "DotnetRestore"
   ==> "DotnetBuild"
