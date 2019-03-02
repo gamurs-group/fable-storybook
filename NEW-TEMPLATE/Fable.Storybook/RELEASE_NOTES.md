@@ -1,5 +1,2 @@
-#### 0.0.2-next
-* Initial release
-
-#### 0.0.1
+#### 0.0.1-alpha
 * Initial release
