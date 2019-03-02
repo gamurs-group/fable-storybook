@@ -1,6 +1,6 @@
 # Fable.Storybook
 
-Fable bindings for `@storybook/react`.
+Fable bindings for the [@storybook/react](https://www.npmjs.com/package/@storybook/react) NPM package.
 
 ## Nuget
 
