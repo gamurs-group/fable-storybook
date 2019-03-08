@@ -177,7 +177,7 @@ Target "Publish" (fun _ ->
         |> Array.find (fun nupkg -> nupkg.Contains(release.NugetVersion))
         |> (fun nupkg ->
             (Path.GetFullPath nupkg, nugetKey)
-            ||> sprintf "nuget push %s -s nuget.org -k %s"
+            ||> sprintf "nuget push \"%s\" -s nuget.org -k %s"
             |> DotNetCli.RunCommand (fun c ->
                                             { c with ToolPath = dotnetExePath }))
 
